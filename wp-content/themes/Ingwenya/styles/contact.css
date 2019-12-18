@@ -1,0 +1,147 @@
+#contact1 {
+    padding: 10% 0;
+    background: url("http://cmfreelancing.co.za/client_sites/ingwenya/wp-content/uploads/2019/12/Background-Pattern.jpg") top left repeat;
+}
+#contact1 #box {
+    width: 60%;
+    min-height: 60vh;
+    margin: auto;
+    display: flex;
+    border: 2px solid #be1f24;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #222;
+    background: #DDD;
+}
+#contact1 #box #left {
+    flex: 50%;
+    border-right: 1px solid #be1f24;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+#contact1 #box #left label {
+    display: block;
+    margin: 10px 0;
+}
+#contact1 #box #left #email {
+    width: 100%;
+    padding: 10px;
+    border: 2px inset #be1f24;
+    outline: none;
+}
+#contact1 #box #left #message {
+    width: 100%;
+    min-height: 30vh;
+    padding: 10px;
+    border: 2px inset #be1f24;
+    outline: none;
+    font-family: sans-serif;
+}
+#contact1 #box #left #submit {
+    padding: 10px 20px;
+}
+#contact1 #box #right {
+    flex: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#contact1 #box #right .contact {
+    display: flex;
+    justify-content: space-between;
+}
+#contact1 #box #right .contact .details {
+    vertical-align: middle;
+    line-height: 8vh;
+}
+#contact1 #box #right .contact .details.location {
+    line-height: 5vh;
+}
+#contact1 #box #right .contact i {
+    font-size: xx-large;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 8vh;
+}
+#contact2 #wrap {
+    padding: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #be1f24;
+    background-color: #222;
+    position: relative;
+}
+#contact2 #wrap .circle {
+    bottom: -12px;
+    left: 0;
+    background: #be1f24;
+}
+#contact2 #wrap .column {
+    width: 25%;
+}
+#contact2 #wrap .column .icon {
+    width: 75px;
+    height: 75px;
+    background: radial-gradient(#be1f24, #ad0e13);
+    color: #FFF;
+    border: 1px solid #111;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    object-fit: contain;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000;
+    transition: 0.5s;
+}
+#contact2 #wrap .column .icon:hover {
+    background: radial-gradient(#ad0e13, #9c0d02);
+    color: #DDD;
+    transform: scale(1.2);
+}
+#contact2 #wrap .column .icon svg {
+    height: 100%;
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#contact2 #wrap #details {
+    width: 100%;
+    flex-shrink: 0;
+}
+#contact2 #wrap #details div {
+    display: none;
+    text-align: center;
+    width: 100%;
+    padding: 50px 50px 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+#contact2 #form {
+    padding: 100px 20%;
+    background: #DDD;
+    box-shadow: 0 0 10px inset #555;
+}
+#contact2 #form h2 {
+    text-decoration: solid underline #be1f24;
+}
+#contact2 #form label {
+    display: block;
+    margin: 20px 0;
+}
+#contact2 #form input[type="email"], #contact2 #form select {
+    width: 50%;
+    padding: 10px;
+    border: 3px inset #be1f24;
+    box-sizing: border-box;
+}
+#contact2 #form textarea {
+    width: 100%;
+    min-height: 40vh;
+    border: 3px inset #be1f24;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#contact2 #form input[type="submit"] {
+    margin: 20px 0;
+    padding: 20px 40px;
+}

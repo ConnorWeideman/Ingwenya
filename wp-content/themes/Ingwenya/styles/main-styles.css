@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+}
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.toggle {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 5vw;
+    opacity: 0.8;
+    transition: 0.25s;
+    z-index: 100;
+}
+.toggle:hover {
+    opacity: 1;
+}
+.design {
+    display: none;
+}
+.design:first-child {
+    display: block;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+}
+#navbar {
+    width: 100%;
+    background-color: #AAA;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+#navbar ol {
+    margin: 0;
+    padding: 0;
+}
+#navbar li {
+    list-style: none;
+    display: inline-block;
+    line-height: 10vh;
+    vertical-align: middle;
+}
+#navbar li a {
+    cursor: pointer;
+}
+#navbar li a:hover {
+    color: #555;
+}
+#navbar #design1 {
+    height: 75vh;
+    background-position: center center;
+    background-size: cover;
+}
+#navbar #design1 #logo {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 15%;
+    padding: 10px;
+    z-index: 11;
+}
+#navbar #design1 nav {
+    position: absolute;
+    bottom: 0;
+    height: max-content;
+    width: 100%;
+    background: #be1f24;
+    border-bottom: 4px solid #000;
+    box-sizing: border-box;
+    z-index: 10;
+}
+#navbar #design1 nav .circle {
+    bottom: -12px;
+    right: 0;
+    background: #000;
+}
+#navbar #design1 nav ol {
+    float: right;
+    width: 100%;
+    display: flex;
+}
+#navbar #design1 nav li {
+    width: 20%;
+    text-align: center;
+    line-height: unset;
+    vertical-align: middle;
+    align-self: center;
+    padding: 20px 0;
+}
+#navbar #design1 nav li a {
+    text-shadow: 1px 1px 2px #555;
+    color: #FFF;
+}
+#navbar #design1 nav li a:hover {
+    text-shadow: 1px 1px #FFF;
+    color: #000;
+}
+#navbar #design2 {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+    border-bottom: 6px solid #be1f24;
+}
+#navbar #design2 .circle {
+    bottom: -13px;
+    right: 0;
+    background: #be1f24;
+    z-index: 10;
+}
+#navbar #design2 nav {
+    height: 10vh;
+    background-color: #FFF;
+    border-bottom: 2px solid #be1f24;
+
+}
+#navbar #design2 nav img {
+    max-height: 10vh;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+#navbar #design2 nav ol {
+    float: right;
+    width: 75%;
+    display: flex;
+}
+#navbar #design2 nav ol li {
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+#navbar #design2 nav ol li > a {
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
+    transition: 0.5s;
+}
+#navbar #design2 nav ol li:hover > a {
+    background-color: #df3f46;
+}
+#navbar #design2 nav ol li a:hover {
+    color: #333;
+}
+#navbar #design2 nav ol li .info {
+    display: none;
+    background: #DDD;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    border: 2px solid #be1f24;
+    min-width: 30vw;
+    justify-content: center;
+    align-content: center;
+}
+#navbar #design2 nav ol li:hover .info {
+    display: flex;
+}
+#navbar #design2 nav ol li .info .left {
+    flex: 50%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    height: max-content;
+    align-self: center;
+}
+#navbar #design2 nav ol li .info .left a {
+    display: block;
+    width: max-content;
+    line-height: 5vh;
+}
+#navbar #design2 nav ol li .info .right {
+    flex: 50%;
+    padding: 20px;
+    max-height: 50vh;
+    line-height: normal;
+    border-left: 1px solid #222;
+}
+#navbar #design2 nav ol li .info .right .content {
+    height: 100%;
+    overflow: auto;
+    background: #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px inset #AAA;
+}
+#navbar #design3 {
+    position: relative;
+}
+#navbar #design3 nav {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #FFF;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #000 inset;
+}
+#navbar #design3 nav img {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #be1f24;
+}
+#navbar #design3 nav ol {
+    padding: 10px 0;
+    width: 100%;
+}
+#navbar #design3 nav ol li {
+    display: block;
+    line-height: unset;
+    padding: 25px 30px;
+    position: relative;
+}
+#navbar #design3 nav ol li.active::before {
+    content: '.';
+    font-size: 100px;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: #be1f24;
+}
+
+#navbar #design3 #header {
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 6px solid #be1f24;
+    position: relative;
+}
+#navbar #design3 #header .circle {
+    background: #be1f24;
+    bottom: -13px;
+    right: 0;
+}
+main {
+    position: relative;
+    background-color: #EEE;
+    color: #000;
+}
+footer {
+    position: relative;
+    min-height: 10vh;
+    color: #FFF;
+}
+footer #design1 {
+    height: auto;
+    display: flex;
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+}
+footer #design1 .column {
+    width: 25%;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer #design1 .column h3 {
+    border-bottom: 3px solid #DDD;
+}
+footer #design1 .column a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #444;
+    color: #FFF;
+    cursor: pointer;
+}
+footer #design1 .column a:hover {
+    background-color: #333;
+}
+footer #design1 #about p {
+    padding: 10px 50px;
+}
+footer #design1 #contact img {
+    object-fit: contain;
+    width: 100%;
+}
+footer #design2 {
+    display: flex;
+    padding: 50px;
+    background-image: linear-gradient(#222, #444);
+}
+footer #design2 .column {
+    width: 33%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+footer #design2 .column p {
+    padding: 25px 20px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+footer #design2 #message form * {
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer #design2 #message input[type="email"] {
+    width: 100%;
+}
+footer #design2 #message textarea {
+    width: 100%;
+    min-height: 100px;
+}
+footer #design2 .column img {
+    width: 100%;
+    object-fit: contain;
+    border: 3px inset #DDD;
+    box-sizing: border-box;
+}
+footer #design3 {
+    background: radial-gradient(#222, #111);
+    display: flex;
+    padding: 25px;
+}
+footer #design3 .column {
+    text-align: center;
+    width: 33%;
+}
+footer #design3 .column svg {
+    font-size: 150%;
+    padding: 10px;
+    vertical-align: middle;
+}
+footer #design3 .column p {
+    display: inline;
+    vertical-align: middle;
+}
