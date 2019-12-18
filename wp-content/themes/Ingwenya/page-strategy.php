@@ -37,6 +37,14 @@
         </section>
         <section id="competencies">
             <h2>COMPETENCIES</h2>
+            <ol>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus. Orci varius natoque
+                    penatibus et magnis dis parturient.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus.</li>
+            </ol>
+            <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Video.jpg">
         </section>
         <section id="differentiators">
             <h2>DIFFERENTIATORS</h2>

@@ -46,7 +46,18 @@
     float: right;
 }
 #strategy1 #competencies {
-    display: none;
+    background: #222;
+    padding: 50px 30%;
+    color: #FFF;
+}
+#strategy1 #competencies h2 {
+    text-align: center;
+    text-decoration: solid underline #be1f24;
+}
+#strategy1 #competencies img {
+    width: 80%;
+    margin: 50px 10%;
+    border: 5px inset #be1f24;
 }
 #strategy1 #differentiators {
     background: #DDD;
