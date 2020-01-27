@@ -49,7 +49,7 @@
         <section id="differentiators">
             <h2>DIFFERENTIATORS</h2>
             <div id="img">
-                <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Three-Product-Cyclone.png">
+                <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/BE9230-scaled.jpg">
                 <div id="cards">
                     <div class="card">
                         <h4>BOOM</h4>

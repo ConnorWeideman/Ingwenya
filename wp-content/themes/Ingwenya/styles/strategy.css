@@ -1,5 +1,5 @@
 #strategy1 {
-    background: #FFF;
+    background: linear-gradient(#FFF, #EEE);
 }
 #strategy1 #three {
     position: relative;

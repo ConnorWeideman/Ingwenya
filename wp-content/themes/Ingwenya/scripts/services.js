@@ -13,19 +13,3 @@ document.querySelectorAll("#products1 #product-row .product").forEach(product =>
         toggle = !toggle;
     })
 })
-
-function productsToggle(toggle, products) {
-    products.forEach(product => {
-        if (product.classList.contains(toggle) || toggle == "all") {
-            product.classList.remove("hide");
-        }
-        else {
-            product.classList.add("hide");
-        }
-    })
-}
-
-const products1Products = document.querySelectorAll("#products1 #product-row .product");
-document.querySelector("#products1 #toggle #filter").addEventListener("change", e => {
-    productsToggle(e.target.value, products1Products);
-});

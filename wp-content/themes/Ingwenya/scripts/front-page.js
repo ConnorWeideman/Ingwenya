@@ -1,19 +1,3 @@
-function productsToggle(toggle, products) {
-    products.forEach(product => {
-        if (product.classList.contains(toggle) || toggle == "all") {
-            product.classList.remove("hide");
-        }
-        else {
-            product.classList.add("hide");
-        }
-    })
-}
-
-const main3Products = document.querySelectorAll("#main3 #products #product-row .product");
-document.querySelector("#main3 #products #toggle #filter").addEventListener("change", e => {
-    productsToggle(e.target.value, main3Products);
-});
-
 const slider = document.querySelector("#navbar #design3 #header #wrap");
 const buttons = document.querySelectorAll("#navbar #design3 #header #header-controls input");
 let left = 0;
@@ -21,7 +5,7 @@ let id;
 
 function slide() {
     console.log("slide");
-    if (left == 3) {
+    if (left == 4) {
         left = -1;
     }
     window.requestAnimationFrame(() => {

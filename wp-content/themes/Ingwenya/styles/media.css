@@ -1,43 +1,93 @@
 #news1 {
     position: relative;
-    padding: 100px 0;
+    padding: 10vh 20%;
     background: linear-gradient(#EEE, #AAA);
+    min-height: 100vh;
+    box-sizing: border-box;
 }
-#news1 .news {
+#news1 h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+#news1 .expand {
+    width: 100%;
+    background: linear-gradient(#EEE, #AAA);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    cursor: pointer;
+    overflow: hidden;
+}
+#news1 .expand:hover {
+    background: linear-gradient(#AAA, #EEE);
+}
+#news1 .expand h2 {
+    display: inline;
+}
+#news1 .expand i {
+    float: right;
+    font-size: xx-large;
+}
+#news1 #gallery {
+    display: none;
+}
+#news1 #gallery #wrap {
+    width: 100%;
+    margin: 5vh 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#news1 #gallery #wrap .photo {
+    flex: 25%;
+    height: 30vh;
+    border: 2px solid #be1f24;
+    box-sizing: border-box;
+}
+#news1 #gallery #wrap .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#news1 #news {
+    display: none;
+    margin: 5vh 0;
+    position: relative;
+}
+#news1 #news .news {
     border-top: 4px solid #be1f24;
     padding: 20px 0;
-    width: 60%;
     margin: auto;
     display: flex;
     transition: 0.5s;
     cursor: pointer;
     position: relative;
 }
-#news1 .news .circle {
+#news1 #news .news .circle {
     top: -12px;
     background: #be1f24;
 }
-#news1 .news:nth-child(odd) .circle {
+#news1 #news .news:nth-child(odd) .circle {
     left: 0;
 }
-#news1 .news:nth-child(even) .circle {
+#news1 #news .news:nth-child(even) .circle {
     right: 0;
 }
-#news1 > .circle {
-    bottom: 92px;
-    left: 20%;
+#news1 #news > .circle {
+    bottom: -8px;
+    left: 0;
     background: #be1f24;
 }
-#news1 .news:last-child {
+#news1 #news .news:last-child {
     border-bottom: 4px solid #be1f24;
 }
-#news1 .news:hover {
+#news1 #news .news:hover {
     background: #FFF;
 }
-#news1 .news .left {
+#news1 #news .news .left {
     flex: 20%;
 }
-#news1 .news .left .day {
+#news1 #news .news .left .day {
     margin: auto;
     border: 1px solid #000;
     font-size: xx-large;
@@ -49,59 +99,147 @@
     padding: 20px;
     width: max-content;
 }
-#news1 .news:hover .left .day {
+#news1 #news .news:hover .left .day {
     background: #EEE;
 }
-#news1 .news .left .month {
+#news1 #news .news .left .month {
     width: 100%;
     text-align: center;
     font-size: large;
     padding: 20px 0;
 }
-#news1 .news .right {
+#news1 #news .news .right {
     flex: 80%;
 }
-#news2 .news {
+#news1 #press {
+    display: none;
+}
+#news1 #press .release {
+    cursor: pointer;
+    margin: 5vh 0;
+    border: 2px solid #be1f24;
+    background: radial-gradient(#FFF, #DDD);
+    padding: 10px;
+}
+#news1 #downloads {
+    display: none;
+    padding: 5vh 5vw;
+}
+#news2 {
+    padding: 5vh 0;
+    min-height: 100vh;
+}
+#news2 h1 {
+    text-align: center;
+}
+#news2 #toggles {
+    height: 10vh;
+    display: flex;
+    margin: 5vh 0;
+}
+#news2 #toggles a {
+    flex: 25%;
+    border: 1px solid #000;
+    background: radial-gradient(#FFF, #DDD);
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+#news2 #toggles a:hover {
+    background: radial-gradient(#DDD, #BBB);
+}
+#news2 section#gallery {
+    display: none;
+}
+#news2 #gallery #wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+#news2 #gallery #wrap .photo {
+    width: 25%;
+    height: 30vh;
+    border: 2px inset #be1f24;
+    box-sizing: border-box;
+}
+#news2 #gallery #wrap .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#news2 section#news {
+    display: none;
+}
+#news2 #news .news {
     border-bottom: 4px ridge #AAA;
     box-shadow: 0 0 5px 2px inset #555;
     padding: 50px;
     position: relative;
 }
-#news2 .news .circle {
+#news2 #news .news .circle {
     bottom: -12px;
     background: #AAA;
     border: 1px solid #555;
     box-shadow: 0 0 5px 2px #555;
 }
-#news2 .news:nth-child(odd) .circle {
+#news2 #news .news:nth-child(odd) .circle {
     left: 0;
 }
-#news2 .news:nth-child(even) .circle {
+#news2 #news .news:nth-child(even) .circle {
     right: 0;
 }
-#news2 .news .wrap {
+#news2 #news .news .wrap {
     width: 50%;
     margin: auto;
 }
-#news2 .news .wrap img {
+#news2 #news .news .wrap img {
     width: 100%;
     height: auto;
     max-height: 50vh;
     object-fit: cover;
     border: 5px inset #be1f24;
 }
-#news2 .news .wrap .title-date * {
+#news2 #news .news .wrap .title-date * {
     line-height: 10vh;
     vertical-align: middle;
 }
-#news2 .news .wrap .title-date a:hover {
+#news2 #news .news .wrap .title-date a:hover {
     color: #555;
 }
-#news2 .news .wrap .title-date h2 {
+#news2 #news .news .wrap .title-date h2 {
     display: inline;
     margin: 0;
 }
-#news2 .news .wrap .title-date p {
+#news2 #news .news .wrap .title-date p {
     float: right;
     margin: 0;
+}
+#news2 section#press-releases {
+    display: none;
+}
+#news2 #press-releases #wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+#news2 #press-releases #wrap .press {
+    margin: 2.5%;
+    width: 20%;
+    background: #FFF;
+    border: 2px solid #be1f24;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #555;
+}
+#news2 section#downloads {
+    display: none;
+}
+#news2 #downloads .download {
+    padding: 5vh 20%;
+    border: 2px solid #555;
+    text-align: center;
+    color: #be1f24;
 }

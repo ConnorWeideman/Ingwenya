@@ -37,7 +37,14 @@
             <div id="header">
                 <div id="wrap">
                     <div class="slide">
-                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Plant2.jpg'>
+                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/Ingwenya.jpg'>
+                        <div class="info">
+                            <h1>INGWENYA MINERAL PROCESSING OPERATIONS AND MAINTENANCE PARTNER OF CHOICE</h1>
+                            <div class="background"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/ING0529-1-scaled.jpg'>
                         <div class="info">
                             <h1>OPERATIONS OF FACILITIES MINERAL PROCESSING FACILITIES</h1>
                             <div class="background"></div>
@@ -51,14 +58,14 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Plant2.jpg'>
+                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/Kiepersol-8th-Nov-2011-026.jpg'>
                         <div class="info">
                             <h1>ENGINEERING DESIGN AND FABRICATION</h1>
                             <div class="background"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Plant2.jpg'>
+                        <img src='<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/ING0646-1-scaled.jpg'>
                         <div class="info">
                             <h1>DESIGN AND BUILD OF COAL PROCESSING PLANTS</h1>
                             <div class="background"></div>
@@ -70,6 +77,7 @@
                     <input type="radio" id="0">
                     <input type="radio" id="1">
                     <input type="radio" id="2">
+                    <input type="radio" id="3">
                 </div>
                 <div class="circle"></div>
             </div>

@@ -9,28 +9,17 @@
     margin: 0;
     text-align: center;
 }
-#products1 #toggle {
-    float: right;
-}
-#products1 #toggle label {
-    margin: 0 5px;
-}
-#products1 #toggle select {
-    padding: 5px;
-    border-radius: 5px;
-    outline: none;
-}
 #products1 #product-row {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 0 5vw 5vh;
     width: 100%;
     box-sizing: border-box;
     justify-content: center;
 }
 #products1 #product-row .product {
     flex: 25%;
-    padding: 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     flex-grow: 0;
     flex-shrink: 0;
@@ -38,6 +27,7 @@
     cursor: pointer;
     opacity: 1;
     display: flex;
+    margin: 2vh 0;
 }
 #products1 #product-row .product.hide {
     display: none;

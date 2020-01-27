@@ -1,0 +1,49 @@
+#sustainability {
+    padding: 5vh 5vw;
+    background: linear-gradient(#FFF, #CCC);
+}
+#sustainability h1 {
+    text-align: center;
+}
+#sustainability > p {
+    width: 100%;
+    padding: 0 20% 5vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+#sustainability #row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#sustainability #row .box {
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    background: radial-gradient(#FFF, #DDD);
+    border: 3px outset #be1f24;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #222;
+}
+#sustainability #row .box .image {
+    font-size: xx-large;
+}
+#sustainability #info {
+    width: 100%;
+    padding: 5vh 20%;
+    box-sizing: border-box;
+}
+#sustainability #info .info {
+    text-align: left;
+    margin: 5vh 0;
+}
+#sustainability #info .info:nth-child(even) {
+    text-align: right;
+}
+#sustainability #info .info h2 {
+    text-decoration: underline #be1f24;
+}

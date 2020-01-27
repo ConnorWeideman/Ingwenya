@@ -2,21 +2,10 @@
 <main>
     <section id="products1" class="design">
         <h1>SERVICES</h1>
-        <div id="toggle">
-            <label for="filter">Filter By:</label>
-            <select id="filter">
-                <option value="all">All</option>
-                <option value="thickeners">Operation of Facilities</option>
-                <option value="agitation">Feasibility and Due Diligence Studies</option>
-                <option value="jigs">Engineering Design and Fabrication</option>
-                <option value="larcodems">Design and Build of Coal Processing Plants</option>
-                <option value="filters">Bomax Engineering</option>
-            </select>
-        </div>
         <div id="product-row">
             <div class="product jigs">
                 <div class="img">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/10/Jigs.jpg">
+                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/ING0529-1-scaled.jpg">
                 </div>
                 <div class="content">
                     <h3>Operation and maintenance of processing facilities</h3>

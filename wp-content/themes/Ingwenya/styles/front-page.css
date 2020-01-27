@@ -96,7 +96,7 @@
     border-bottom: 1px solid #CCC;
 }
 #main3 #projects #project-row .project {
-    width: 25%;
+    flex: 33%;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
     padding: 20px;
