@@ -1,10 +1,3 @@
-const slider = document.querySelector("#main1 #product-slider #slide #wrap");
-document.querySelector("#main1 #product-slider #left-arrow").addEventListener("click", () => {
-    slider.style.left = "0";
-});
-document.querySelector("#main1 #product-slider #right-arrow").addEventListener("click", () => {
-    slider.style.left = "-25%";
-});
 function productsToggle(toggle, products) {
     products.forEach(product => {
         if (product.classList.contains(toggle) || toggle == "all") {
@@ -21,25 +14,37 @@ document.querySelector("#main3 #products #toggle #filter").addEventListener("cha
     productsToggle(e.target.value, main3Products);
 });
 
-const main2Products = document.querySelectorAll("#main2 #products #product-container #product-row .product");
-document.querySelectorAll("#main2 #products #product-container #toggles a").forEach(toggle => {
-    toggle.addEventListener("click", e => {
-        productsToggle(e.target.id, main2Products);
-    })
+const slider = document.querySelector("#navbar #design3 #header #wrap");
+const buttons = document.querySelectorAll("#navbar #design3 #header #header-controls input");
+let left = 0;
+let id;
+
+function slide() {
+    console.log("slide");
+    if (left == 3) {
+        left = -1;
+    }
+    window.requestAnimationFrame(() => {
+        slider.style.left = "-" + (left * 100) + "%";
+    });
+    left += 1;
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].checked = false;
+        if (left == i) {
+            buttons[i].checked = true;
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    id = window.setInterval(slide, 5000);
 });
 
-function main2ProjectsToggle(id) {
-    document.querySelectorAll("#main2 #projects #info .project-info").forEach(info => {
-        if (info.id == id) {
-            info.classList.add("show");
-        }
-        else {
-            info.classList.remove("show");
-        }
-    })
-}
-document.querySelectorAll("#main2 #projects #map .project").forEach(toggle => {
-    toggle.addEventListener("click", e => {
-        main2ProjectsToggle(e.currentTarget.id.charAt(7))
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        window.clearInterval(id);
+        left = parseInt(button.id);
+        slide();
+        id = window.setInterval(slide, 5000);
     });
-})
+});

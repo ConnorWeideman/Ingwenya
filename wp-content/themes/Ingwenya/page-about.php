@@ -2,76 +2,83 @@
 <main>
     <section id="about1" class="design">
         <section id="company">
-            <h2>OUR COMPANY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies nulla eu elit sollicitudin
-                sagittis. Morbi a velit eu tortor ullamcorper porttitor. Nunc viverra, sem non sagittis egestas, erat
-                sapien iaculis lorem, nec ornare dolor leo et magna. Integer porta fermentum pretium. Maecenas rhoncus
-                tempor gravida. Nam ornare massa nisi, at vehicula tortor ullamcorper sit amet. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra.</p>
-            <p>Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nibh magna.
-                Praesent ut laoreet turpis. Curabitur libero massa, vulputate non lobortis vitae, fringilla eget ipsum.
-                Vivamus massa magna, condimentum in risus non, molestie interdum urna. Morbi tristique magna sed nulla
-                faucibus, sit amet mollis velit gravida.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies nulla eu elit sollicitudin
-                sagittis. Morbi a velit eu tortor ullamcorper porttitor. Nunc viverra, sem non sagittis egestas, erat
-                sapien iaculis lorem, nec ornare dolor leo et magna. Integer porta fermentum pretium. Maecenas rhoncus
-                tempor gravida. Nam ornare massa nisi, at vehicula tortor ullamcorper sit amet. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nibh magna.
-                Praesent ut laoreet turpis. Curabitur libero massa, vulputate non lobortis vitae, fringilla eget ipsum.
-                Vivamus massa magna, condimentum in risus non, molestie interdum urna. Morbi tristique magna sed nulla
-                faucibus, sit amet mollis velit gravida.</p>
+            <h2>ABOUT US</h2>
+            <p id="large">INGWENYA MINERAL PROCESSING OPERATIONS AND MAINTENANCE PARTNER
+                OF CHOICE</p>
+            <p>Ingwenya Mineral Processing (Pty) Ltd (IMP) is a South African owned mineral
+                processing company with 52% black Shareholding based in Emalahleni, Mpumalanga
+                Province. IMP is a level 4 BEE contributor. The company was incorporated in 2006 to
+                service the mining industry in the field of contract mineral processing consulting
+                services with specific focus on the coal industry. Since 2006 IMP has designed, built
+                and commissioned successful coal processing plants. IMP specializes in the supply of
+                cost effective, flexible modular plants, which are built within short lead times. Our
+                modular plants are tailor-made and easy to operate.</p>
+            <p>As a midtier coal-minerals processing specialist, IMPs vision is grow its portfolio
+                beyond local borders and to also diversify into other commodities. Ingwenya is
+                involved in technological advancements that will see the industry develop.</p>
         </section>
         <section id="stats">
-            <div class="card">
-                <div class="number">2</div>
-                <div class="category">LOCATIONS</div>
-            </div>
-            <div class="card">
-                <div class="number">27</div>
-                <div class="category">PRODUCTS</div>
-            </div>
-            <div class="card">
-                <div class="number">183</div>
-                <div class="category">EMPLOYEES</div>
-            </div>
-            <div class="card">
-                <div class="number">13</div>
-                <div class="category">YEARS</div>
+            <h2 id="h2">CORE VALUES</h2>
+            <div id="stats-box">
+                <div class="card">
+                    <div class="number"><i class="fas fa-user-tie"></i></div>
+                    <div class="category">
+                        <h3>Simplicity</h3>
+                        <p>Communicate effectively and clearly</p>
+                        <p>Be consistent in our business practices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number"><i class="fas fa-user-check"></i></div>
+                    <div class="category">
+                        <h3>Integrity</h3>
+                        <p>Identify and deal with ethical issues</p>
+                        <p>Always follow through on our commitments</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number"><i class="fas fa-user-plus"></i></div>
+                    <div class="category">
+                        <h3>Friendly</h3>
+                        <p>Ensure people feel comfortable and inspired in our environment</p>
+                        <p>Build mutually benifical relationship commitments</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="number"><i class="fas fa-thumbs-up"></i></div>
+                    <div class="category">
+                        <h3>Can-do</h3>
+                        <p>Go the extra mile for our customers</p>
+                        <p>Set appropriate goals</p>
+                        <p>Enthusiasm in what we do</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="number"><i class="fas fa-users"></i></div>
+                    <div class="category">
+                        <h3>Teamwork</h3>
+                        <p>Have fun working together as a team</p>
+                        <p>Balance work and personal life</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="partners">
-            <h2>OUR DIVISIONS</h2>
             <div id="partner-row">
                 <div class="partner">
-                    <h3>Ingwenya Mineral Processing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae facilisis enim. Phasellus
-                        finibus
-                        nisi mattis, scelerisque orci sit amet, blandit orci. Phasellus convallis dolor sit amet finibus
-                        facilisis. In euismod turpis nisl, non pharetra massa varius eu. Duis ex nibh, posuere ac
-                        fringilla
-                        eu, venenatis ut libero. Aliquam erat volutpat. Praesent sed posuere sem, a pulvinar massa. Cras
-                        vel
-                        massa eu urna cursus commodo.</p>
-                </div>
-                <div class="partner">
-                    <h3>Bomax Engineering</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae facilisis enim. Phasellus
-                        finibus
-                        nisi mattis, scelerisque orci sit amet, blandit orci. Phasellus convallis dolor sit amet finibus
-                        facilisis. In euismod turpis nisl, non pharetra massa varius eu. Duis ex nibh, posuere ac
-                        fringilla
-                        eu, venenatis ut libero. Aliquam erat volutpat. Praesent sed posuere sem, a pulvinar massa. Cras
-                        vel
-                        massa eu urna cursus commodo.</p>
+                    <h3>Ingwenya is About</h3>
+                    <ul>
+                        <li>Cost efficient Operations and Maintenance</li>
+                        <li>Easy to operate plants</li>
+                        <li>Innovative and tailormade solutions</li>
+                        <li>Low Capex projects</li>
+                        <li>Relationship with our stakeholders</li>
+                        </ol>
                 </div>
             </div>
         </section>
+        <section id="sustainability"></section>
         <section id="clients">
             <h2>OUR CLIENTS</h2>
             <div id="client-photos">
@@ -119,97 +126,5 @@
             </div>
         </section>
     </section>
-    <section id="about2" class="design">
-        <section id="company">
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/ING0529-1-scaled.jpg" alt="The Company">
-            <h2>Our Company</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies nulla eu elit sollicitudin
-                sagittis. Morbi a velit eu tortor ullamcorper porttitor. Nunc viverra, sem non sagittis egestas, erat
-                sapien iaculis lorem, nec ornare dolor leo et magna. Integer porta fermentum pretium. Maecenas rhoncus
-                tempor gravida. Nam ornare massa nisi, at vehicula tortor ullamcorper sit amet. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra.</p>
-            <p>Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nibh magna.
-                Praesent ut laoreet turpis. Curabitur libero massa, vulputate non lobortis vitae, fringilla eget ipsum.
-                Vivamus massa magna, condimentum in risus non, molestie interdum urna. Morbi tristique magna sed nulla
-                faucibus, sit amet mollis velit gravida.</p>
-            <button id="download">Portfolio</button>
-        </section>
-        <section id="partners">
-            <div class="circle"></div>
-            <h2>Our Values</h2>
-            <div id="partner-row">
-                <div class="partner">
-                    <i class="fas fa-award"></i>
-                    <p>Quality Service</p>
-                </div>
-                <div class="partner">
-                    <i class="fas fa-thumbs-up"></i>
-                    <p>Reliability</p>
-                </div>
-                <div class="partner">
-                    <i class="fas fa-university"></i>
-                    <p>Education</p>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies nulla eu elit sollicitudin
-                sagittis. Morbi a velit eu tortor ullamcorper porttitor. Nunc viverra, sem non sagittis egestas, erat
-                sapien iaculis lorem, nec ornare dolor leo et magna. Integer porta fermentum pretium. Maecenas rhoncus
-                tempor gravida. Nam ornare massa nisi, at vehicula tortor ullamcorper sit amet. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nibh magna.
-                Praesent ut laoreet turpis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies
-                nulla eu elit sollicitudin
-                sagittis. Morbi a velit eu tortor ullamcorper porttitor. Nunc viverra, sem non sagittis egestas, erat
-                sapien iaculis lorem, nec ornare dolor leo et magna. Integer porta fermentum pretium. Maecenas rhoncus
-                tempor gravida. Nam ornare massa nisi, at vehicula tortor ullamcorper sit amet. Etiam et ornare orci,
-                nec gravida est. Donec tristique lectus eget eros malesuada, in malesuada purus semper. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nibh magna.
-                Praesent ut laoreet turpis.</p>
-        </section>
-        <section id="clients">
-            <div class="circle"></div>
-            <h2>Our Clients</h2>
-            <div id="client-row">
-                <div id="wrap">
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download1.png" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download2.jpg" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download3.jpg" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download4.jpg" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download5.png" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download6.jpg" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download7.jpg" alt="client">
-                        <p>Company1</p>
-                    </div>
-                    <div class="client">
-                        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download8.png" alt="client">
-                        <p>Company1</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-    <input id="main-toggle" class="toggle" type="range" min="0" max="1" value="0">
 </main>
 <?php get_footer()?>

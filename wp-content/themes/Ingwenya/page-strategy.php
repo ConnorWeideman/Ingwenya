@@ -9,42 +9,42 @@
                     Design and Build of Modular plants
                     <div class="circle"></div>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
+                <p>Our modular plants are:</p>
+                <ul>
+                    <li>designed by a team of highly experienced engineers.</li>
+                    <li>tailormade to suit the client’s requirements.</li>
+                    <li>have small footprint</li>
+                    <li>easily Relocated</li>
+                    <li>simple and easy to operate</li>
+                    <li>designed to use optimal water and power consumption</li>
+                    <li>flexible to wash different seams and produce multi products</li>
+                    <li>built within short lead times therefore quicker time to production</li>
+                    <li>Low CAPEX</li>
+                </ul>
             </div>
             <div class="column">
                 <h3>
                     Maintenance and operation of plants
                     <div class="circle"></div>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
+                <ul>
+                    <li>Low OPEX:</li>
+                    <li>Low consumable usage</li>
+                    <li>Quality maintenance plan</li>
+                    <li>Shutdowns for Quality maintenance with support from Bomax team</li>
+                    <li>Timely reporting of results</li>
+                </ul>
             </div>
             <div class="column">
                 <h3>
                     Stakeholders
                     <div class="circle"></div>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
+                <p>Our stakeholders are part of our team. They contribute to the success of our
+                    business. To benefit from this, we have built relationship that is beneficial
+                    based on trust, reliability and commitment with all stakeholders which
+                    contributes to winning results.</p>
             </div>
-        </section>
-        <section id="competencies">
-            <h2>COMPETENCIES</h2>
-            <ol>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus. Orci varius natoque
-                    penatibus et magnis dis parturient.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim metus.</li>
-            </ol>
-            <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Video.jpg">
         </section>
         <section id="differentiators">
             <h2>DIFFERENTIATORS</h2>
@@ -52,119 +52,38 @@
                 <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Three-Product-Cyclone.png">
                 <div id="cards">
                     <div class="card">
-                        <i class="fas fa-hourglass-half"></i>
-                        <p>Reduced Lead Times</p>
+                        <h4>BOOM</h4>
+                        <p>Build Own, Operate and Maintain</p>
                     </div>
                     <div class="card">
-                        <i class="fas fa-wrench"></i>
-                        <p>Tailor Made Plants</p>
+                        <h4>BOOT</h4>
+                        <p>Build Own, Operate and Transfer</p>
                     </div>
                 </div>
             </div>
             <div id="bomax">
-                <h3>Bomax</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula enim
-                    id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                    nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                    fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-            </div>
-        </section>
-    </section>
-    <section class="design" id="strategy2">
-        <section id="three">
-            <h2>STRATEGY</h2>
-            <div id="blocks">
-                <div class="block">
-                    <h3>Design and Build of Modular plants</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                        enim
-                        id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                        nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                        fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-                </div>
-                <div class="block">
-                    <h3>Maintenance and operation of plants</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                        enim
-                        id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                        nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                        fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-                </div>
-                <div class="block">
-                    <h3>Stakeholders</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                        enim
-                        id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                        nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                        fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-                </div>
-            </div>
-        </section>
-        <section id="competencies">
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Video.jpg">
-            <h2>CORE COMPETENCIES</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                enim
-                id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                enim
-                id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tortor consectetur, vehicula
-                enim
-                id, auctor dui. Nam diam enim, pharetra id arcu vel, bibendum porta quam. Phasellus nec posuere
-                nunc. Curabitur nec neque dolor. Vestibulum lacus nisi, tristique vulputate nibh vitae, pharetra
-                fringilla lacus. Proin pellentesque consequat est, ac ullamcorper turpis efficitur ut.</p>
-        </section>
-        <section id="differentiators">
-            <h2>DIFFERENTIATORS</h2>
-            <p>4 000m<sup>2</sup> engineering workshop (BOMAX) Ingwenya fabricates our own steel structures and
-                platework.
-                This gives us an advantage to:</p>
-            <div class="blocks 1">
-                <div class="block">
-                    <i class="fas fa-hourglass-half"></i>
-                    <p>Reduce Lead Times</p>
-                </div>
-                <div class="block">
-                    <i class="fas fa-wrench"></i>
-                    <p>Tailor Make Plants</p>
-                </div>
-            </div>
-            <p>We apply inhouse knowledge and experience to:</p>
-            <div class="blocks">
-                <div class="block">
-                    <p>Simplify our designs to make them straightforward and easy to operate.</p>
-                </div>
-                <div class="block">
-                    <p>Respond from our workshop quickly when there are big breakdowns meaning we can get back to
-                        production quickly.</p>
-                </div>
-                <div class="block">
-                    <p>Give support to plant teams on big shutdowns.</p>
-                </div>
-                <div class="block">
-                    <p>Strategically partner with OEMs.</p>
-                </div>
-            </div>
-        </section>
-    </section>
+                <h3>Differentiators:</h3>
+                <p>4 000m 2 engineering workshop (BOMAX) where we fabricate our own steel structures and
+                    platework.</p>
+                <p>This gives us an advantage to:</p>
+                <ul>
+                    <li>Reduce lead time to production</li>
+                    <li>Tailor make our plants to suit client requests</li>
+                    <li>We are constantly hands on during fabrication and construction which gives us control.</li>
+                </ul>
 
-    <input id="main-toggle" class="toggle" type="range" min="0" max="1" value="0">
+                <p>We apply inhouse knowledge and experience to:</p>
+                <ul>
+                    <li>To simplify our designs, make them straightforward and easy to operate.</li>
+                    <li>Quick response from our workshop when there are big breakdowns means we get back to
+                        production quickly.</li>
+                    <li>Bomax gives support to plant teams on big shutdowns and maintenance.</li>
+                    <li>Strategic partnerships with OEMs give advantage in keeping up with new equipment and
+                        quicker service.</li>
+                </ul>
+            </div>
+        </section>
+    </section>
 </main>
 
 <?php get_footer()?>

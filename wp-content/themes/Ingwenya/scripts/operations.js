@@ -18,18 +18,3 @@ toggles1.forEach(toggle => {
         })
     })
 });
-
-const projects2 = document.querySelectorAll("#projects2 #project-row .project");
-document.querySelectorAll("#projects2 #wrap #map i").forEach(toggle => {
-    toggle.addEventListener("click", () => {
-        document.querySelector("#projects2 #project-row #default").style.display = "none";
-        projects2.forEach(project => {
-            if (project.classList.contains(toggle.id)) {
-                project.classList.add("show");
-            }
-            else {
-                project.classList.remove("show");
-            }
-        })
-    })
-})

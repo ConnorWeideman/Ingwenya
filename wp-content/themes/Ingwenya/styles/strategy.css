@@ -28,36 +28,21 @@
     position: relative;
     color: #be1f24;
 }
-#strategy1 #three .column p {
-    width: 50%;
-    float: left;
-}
 #strategy1 #three .column h3 .circle {
     position: absolute;
     bottom: -12px;
     left: 0;
     background: #be1f24;
 }
+#strategy1 #three .column p, #strategy1 #three .column ul {
+    width: 60%;
+}
 #strategy1 #three .column:nth-child(3) h3 .circle {
     left: unset;
     right: 0;
 }
-#strategy1 #three .column:nth-child(3) p {
+#strategy1 #three .column:nth-child(3) ul {
     float: right;
-}
-#strategy1 #competencies {
-    background: #222;
-    padding: 50px 30%;
-    color: #FFF;
-}
-#strategy1 #competencies h2 {
-    text-align: center;
-    text-decoration: solid underline #be1f24;
-}
-#strategy1 #competencies img {
-    width: 80%;
-    margin: 50px 10%;
-    border: 5px inset #be1f24;
 }
 #strategy1 #differentiators {
     background: #DDD;
@@ -92,93 +77,20 @@
     justify-content: space-around;
 }
 #strategy1 #differentiators #img #cards .card {
-    width: 30%;
+    width: 40%;
     background: radial-gradient(#FFF, #DDD);
     border: 2px outset #555;
     box-shadow: 0 0 5px 2px #222;
     padding: 5px;
     box-sizing: border-box;
 }
-#strategy1 #differentiators #img #cards .card svg {
+#strategy1 #differentiators #img #cards .card h4 {
     width: 100%;
     font-size: xx-large;
-    padding: 5px 0;
+    text-align: center;
+    margin: 10px 0;
 }
 #strategy1 #differentiators #img #cards .card p {
     width: 100%;
     text-align: center;
-}
-#strategy2 #three {
-    background: #EEE;
-    padding: 50px;
-    position: relative;
-}
-#strategy2 #three h2 {
-    text-align: center;
-}
-#strategy2 #three #blocks .block {
-    width: 40%;
-    display: inline-block;
-    text-align: center;
-    padding: 50px;
-    margin: 4%;
-    box-sizing: border-box;
-    border: 5px outset #be1f24;
-    background: radial-gradient(#FFF, #DDD);
-    box-shadow: 2px 2px 5px #222;
-}
-#strategy2 #three #blocks .block:nth-child(2) {
-    float: right;
-}
-#strategy2 #three #blocks .block:nth-child(3) {
-    width: 60%;
-    margin: 50px 20%;
-}
-#strategy2 #competencies {
-    background: #FFF;
-    border: 2px solid #AAA;
-    box-shadow: 0 0 5px inset #222;
-    padding: 50px 10%;
-    overflow: hidden;
-}
-#strategy2 #competencies img {
-    float: right;
-    width: 40%;
-    border: 5px outset #be1f24;
-    margin: 0 0 0 10%;
-}
-#strategy2 #competencies h2 {
-    text-decoration: solid underline #be1f24;
-}
-#strategy2 #differentiators {
-    background: #111;
-    color: #FFF;
-    padding: 50px 20%;
-    text-align: center;
-}
-#strategy2 #differentiators .blocks {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-}
-#strategy2 #differentiators .blocks .block {
-    width: 30%;
-    min-height: 20vh;
-    margin: 20px;
-    box-sizing: border-box;
-    border: 5px outset #be1f24;
-    background: radial-gradient(#FFF, #DDD);
-    box-shadow: 2px 2px 5px #000;
-    color: #000;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#strategy2 #differentiators .blocks .block svg{
-    font-size: xx-large;
-    width: 100%;
-}
-#strategy2 #differentiators .blocks .block p {
-    width: 100%;
 }

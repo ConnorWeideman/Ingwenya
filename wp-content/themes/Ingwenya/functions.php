@@ -10,17 +10,17 @@ function load_stylesheets() {
         wp_register_style("contactstyles", get_template_directory_uri() . "/styles/contact.css", array(), 1, "all" );
         wp_enqueue_style("contactstyles");
     }
-    if(is_page("news")) {
-        wp_register_style("newsstyles", get_template_directory_uri() . "/styles/news.css", array(), 1, "all" );
-        wp_enqueue_style("newsstyles");
+    if(is_page("media")) {
+        wp_register_style("mediastyles", get_template_directory_uri() . "/styles/media.css", array(), 1, "all" );
+        wp_enqueue_style("mediastyles");
     }
-    if(is_page("projects")) {
-        wp_register_style("projectstyles", get_template_directory_uri() . "/styles/projects.css", array(), 1, "all" );
-        wp_enqueue_style("projectstyles");
+    if(is_page("operations")) {
+        wp_register_style("operationstyles", get_template_directory_uri() . "/styles/operations.css", array(), 1, "all" );
+        wp_enqueue_style("operationstyles");
     }
-    if(is_page("products")) {
-        wp_register_style("productstyles", get_template_directory_uri() . "/styles/products.css", array(), 1, "all" );
-        wp_enqueue_style("productstyles");
+    if(is_page("services")) {
+        wp_register_style("servicestyles", get_template_directory_uri() . "/styles/services.css", array(), 1, "all" );
+        wp_enqueue_style("servicestyles");
     }
     if(is_page("about")) {
         wp_register_style("aboutstyles", get_template_directory_uri() . "/styles/about.css", array(), 1, "all" );
@@ -38,6 +38,14 @@ function load_stylesheets() {
         wp_register_style("singlestyles", get_template_directory_uri() . "/styles/single.css", array(), 1, "all" );
         wp_enqueue_style("singlestyles");
     }
+    if(is_page("sustainability")) {
+        wp_register_style("sustainabilitystyles", get_template_directory_uri() . "/styles/sustainability.css", array(), 1, "all" );
+        wp_enqueue_style("sustainabilitystyles");
+    }
+    if(is_page("bomax-engineering")) {
+        wp_register_style("bomax-engineeringstyles", get_template_directory_uri() . "/styles/bomax-engineering.css", array(), 1, "all" );
+        wp_enqueue_style("bomax-engineeringstyles");
+    }
 }
 function load_scripts() {
     wp_register_script("mainscripts", get_template_directory_uri() . "/scripts/main-scripts.js", array(), 1, true);
@@ -50,17 +58,17 @@ function load_scripts() {
         wp_register_script("contactscript", get_template_directory_uri() . "/scripts/contact.js", array(), 1, true );
         wp_enqueue_script("contactscript");
     }
-    if(is_page("news")) {
-        wp_register_script("newsscript", get_template_directory_uri() . "/scripts/news.js", array(), 1, true );
-        wp_enqueue_script("newsscript");
+    if(is_page("media")) {
+        wp_register_script("mediascript", get_template_directory_uri() . "/scripts/media.js", array(), 1, true );
+        wp_enqueue_script("mediascript");
     }
-    if(is_page("projects")) {
-        wp_register_script("projectscript", get_template_directory_uri() . "/scripts/projects.js", array(), 1, true );
-        wp_enqueue_script("projectscript");
+    if(is_page("operations")) {
+        wp_register_script("operationscript", get_template_directory_uri() . "/scripts/operations.js", array(), 1, true );
+        wp_enqueue_script("operationscript");
     }
-    if(is_page("products")) {
-        wp_register_script("productscript", get_template_directory_uri() . "/scripts/products.js", array(), 1, true );
-        wp_enqueue_script("productscript");
+    if(is_page("services")) {
+        wp_register_script("servicescript", get_template_directory_uri() . "/scripts/services.js", array(), 1, true );
+        wp_enqueue_script("servicescript");
     }
     if(is_page("about")) {
         wp_register_script("aboutscript", get_template_directory_uri() . "/scripts/about.js", array(), 1, true );
@@ -71,6 +79,13 @@ function load_scripts() {
         wp_enqueue_script("singleproductscript");
     }
 }
+
+register_nav_menus(
+    array(
+    'primary-menu' => __( 'Primary Menu' ),
+    )
+);
+
 add_action("wp_enqueue_scripts", "load_scripts");
 add_action("wp_enqueue_scripts", "load_stylesheets");
 add_theme_support( 'post-thumbnails' );

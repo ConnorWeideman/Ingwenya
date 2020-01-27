@@ -14,15 +14,15 @@ document.querySelectorAll("#product1 #toggles a").forEach(toggle => {
 
 let t = true;
 const gallery = document.querySelector("#product2 #gallery");
-const toggle = document.querySelector("#product2 #img #toggle");
-toggle.addEventListener("click", () => {
+const imgtoggle = document.querySelector("#product2 #img #toggle");
+imgtoggle.addEventListener("click", () => {
     if (t) {
         gallery.style.display = "block";
-        toggle.style.transform = "rotate(180deg)";
+        imgtoggle.style.transform = "rotate(180deg)";
     }
     else {
         gallery.style = "";
-        toggle.style = "";
+        imgtoggle.style = "";
     }
     t = !t;
 })
