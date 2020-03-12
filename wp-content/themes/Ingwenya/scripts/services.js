@@ -1,6 +1,6 @@
 document.querySelectorAll("#products1 #product-row .product").forEach(product => {
     let toggle = true;
-    const p = product.children[1].children[1];
+    const p = product.querySelector(".info");
     product.addEventListener("click", e => {
         if (toggle) {
             product.classList.add("expand");

@@ -2,28 +2,39 @@
 
 <main>
     <section id="bomax">
-        <div id="img">
-            <div id="expand">
+        <div id="desktop" class="img">
+            <div class="expand">
                 <p>Gallery
-                    <i class="fas fa-chevron-down" id="arrow"></i>
+                    <i class="fas fa-chevron-down" class="arrow"></i>
                 </p>
             </div>
             <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/BOMAX-welding-photo.jpg">
         </div>
-        <h1>BOMAX ENGINEERING</h1>
-        <p>Ingwenya has a 4000 m 2 engineering workshop located in Hendrina, Mpumalanga. The workshop facility
-            augments operations and is the primary fabrication / installation workshop for all Ingwenya operations.</p>
-        <h2>The workshop has a well-qualified & experienced team with the following capabilities:</h2>
-        <ul>
-            <li>All steel fabrication works for all builds</li>
-            <li>Tiling & Rubber lining, pulleys, bucket Repairs</li>
-            <li>Sand Blasting and Painting</li>
-            <li>Heat treatment / stress relieving equipment.</li>
-            <li>Boring, Drilling and Milling</li>
-            <li>Repair works for all the process equipment in use in our plants.</li>
-            <li>Contractual/adhoc maintenance of processing plants</li>
-        </ul>
-        <div id="gallery">
+        <section id="intro">
+            <h1>BOMAX ENGINEERING</h1>
+            <p>Ingwenya has a 4000 m 2 engineering workshop located in Hendrina, Mpumalanga. The workshop facility
+                augments operations and is the primary fabrication / installation workshop for all Ingwenya operations.
+            </p>
+            <h2>The workshop has a well-qualified & experienced team with the following capabilities:</h2>
+            <ul>
+                <li>All steel fabrication works for all builds</li>
+                <li>Tiling & Rubber lining, pulleys, bucket Repairs</li>
+                <li>Sand Blasting and Painting</li>
+                <li>Heat treatment / stress relieving equipment.</li>
+                <li>Boring, Drilling and Milling</li>
+                <li>Repair works for all the process equipment in use in our plants.</li>
+                <li>Contractual/adhoc maintenance of processing plants</li>
+            </ul>
+        </section>
+        <div id="mobile" class="img">
+            <div class="expand">
+                <p>Gallery
+                    <i class="fas fa-chevron-down" class="arrow"></i>
+                </p>
+            </div>
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/BOMAX-welding-photo.jpg">
+        </div>
+        <section id="gallery">
             <div id="wrap">
                 <div class="photo">
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/BE9230.jpg">
@@ -41,8 +52,8 @@
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/tiling-@Bomax.jpg">
                 </div>
             </div>
-        </div>
-        <div id="row">
+        </section>
+        <section id="row">
             <h2>The workshop is equipped with:</h2>
             <div class="box">
                 <p>Qualified and Certified welders.</p>
@@ -60,8 +71,20 @@
                 <p>Our designs are tailormade to suit client-specific requirements for both plant layout and process
                     considerations</p>
             </div>
-        </div>
-        <div id="experience">
+        </section>
+        <section id="services">
+            <p>Bomax Engineering is open for business to outside customers.</p>
+            <h2>Services Offered:</h2>
+            <ul>
+                <li>Plant maintenance contracts</li>
+                <li>Shutdown maintenance</li>
+                <li>Engineering inspections</li>
+                <li>Equipment replacements/ installation/ retrofits</li>
+            </ul>
+            <p>For a quotation/ info email: <a href="mail:wilheminahm@ingwenyamp.co.za">wilheminahm@ingwenyamp.co.za</a>
+            </p>
+        </section>
+        <section id="experience">
             <h2>Previous Experience:</h2>
             <p>Fabrication of all Processing Plant Structures for all Ingwenya Plants</p>
             <p>Eskom Power Station Cooling Tower structures fabrication</p>
@@ -69,7 +92,7 @@
             <p>Manufacturing & Installation of HES 1300 Vibrating Screen Centrifuges for Sasol</p>
             <p>Modifications and Modernisation of processing plants.</p>
             <p>Shutdowns and Maintenance of plants.</p>
-        </div>
+        </section>
     </section>
 </main>
 

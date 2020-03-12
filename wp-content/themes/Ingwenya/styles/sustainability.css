@@ -1,27 +1,38 @@
 #sustainability {
-    padding: 5vh 5vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));
     background: linear-gradient(#FFF, #CCC);
 }
 #sustainability h1 {
     text-align: center;
+    padding-top: 5vh;
 }
 #sustainability > p {
     width: 100%;
-    padding: 0 20% 5vh;
+    padding: 0 10% 5vh;
     box-sizing: border-box;
     text-align: center;
 }
 #sustainability #row {
+    display: -webkit-box;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 0 5vw;
+    box-sizing: border-box;
 }
 #sustainability #row .box {
-    width: 15%;
+    width: 40%;
+    margin: 5%;
     height: 20vh;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: center;
     justify-content: center;
     align-self: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
     text-align: center;
     background: radial-gradient(#FFF, #DDD);
@@ -34,16 +45,65 @@
 }
 #sustainability #info {
     width: 100%;
-    padding: 5vh 20%;
-    box-sizing: border-box;
+    padding: 5vh 0;
+    overflow: hidden;
 }
 #sustainability #info .info {
+    width: 90%;
+    float: right;
     text-align: left;
-    margin: 5vh 0;
 }
 #sustainability #info .info:nth-child(even) {
+    float: left;
     text-align: right;
 }
 #sustainability #info .info h2 {
-    text-decoration: underline #be1f24;
+    padding: 20px;
+    border-bottom: 2px solid #be1f24;
+    position: relative;
+    color: #be1f24;
+}
+#sustainability #info .info h2 .circle {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    background: #be1f24;
+}
+#sustainability #info .info:nth-child(even) h2 .circle {
+    left: unset;
+    right: 0;
+}
+#sustainability #info .info .content {
+    width: 80%;
+}
+#sustainability #info .info:nth-child(even) .content {
+    float: right;
+}
+@media screen and (min-width: 768px) {
+    #sustainability > p {
+        padding: 0 20% 5vh;
+    }
+    #sustainability #row .box {
+        width: 28%;
+        margin: 2%;
+        height: 30vh;
+    }
+    #sustainability #info .info {
+        width: 80%;
+    }
+    #sustainability #info .info .content {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 992px) {
+    #sustainability #row .box {
+        width: 14%;
+        margin: unset;
+    }
+    #sustainability #info .info {
+        width: 70%;
+    }
+    #sustainability #info .info .content {
+        width: 60%;
+    }
 }

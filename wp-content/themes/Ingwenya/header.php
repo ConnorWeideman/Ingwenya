@@ -22,6 +22,7 @@
 <body>
     <div id="navbar">
         <header class="design" id="design3" style="display: block">
+            <button id="nav-toggle">X</button>
             <nav>
                 <div>
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Logo.jpg" alt="logo">

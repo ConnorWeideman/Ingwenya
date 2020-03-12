@@ -3,27 +3,30 @@
     position: relative;
 }
 #main3 h2 {
+    -webkit-text-decoration: solid underline #be1f24;
     text-decoration: solid underline #be1f24;
 }
 #main3 #about {
     width: 100%;
     margin: auto;
-    padding: 0 20% 50px;
+    padding: 0 10% 5vh;
     text-align: center;
     box-sizing: border-box;
 }
 #main3 #about h2 {
-    padding: 50px 0 25px;
+    padding: 5vh 0 2.5vh;
     margin: 0;
 }
 #main3 #about p {
+    -webkit-margin-before: 0;
     margin-block-start: 0;
 }
 #main3 #products {
     background: radial-gradient(#FFF, #BBB);
-    padding: 50px;
+    padding: 5vh 5vw;
     border: 2px solid #999;
     box-shadow: 0 0 10px #555;
+    box-sizing: border-box;
 }
 #main3 #products h2 {
     margin: 0;
@@ -41,62 +44,78 @@
     outline: none;
 }
 #main3 #products #product-row {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 5vh 2.5vw;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-pack: center;
     justify-content: center;
 }
 #main3 #products #product-row .product {
-    padding: 20px;
+    padding: 10px;
+    max-width: 100%;
     box-sizing: border-box;
+    -webkit-box-flex: 0;
     flex-grow: 0;
     flex-shrink: 0;
     text-align: left;
     cursor: pointer;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     opacity: 1;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 #main3 #products #product-row .product.hide {
     display: none;
 }
-#main3 #products #product-row .product:hover {
-    opacity: 0.5;
-}
 #main3 #products #product-row .product img {
-    width: 75px;
-    height: 75px;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     border: 2px solid #be1f24;
     float: left;
-    margin: 0 20px;
+    margin: 0 2vw;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#main3 #products #product-row .product:hover a {
+    text-shadow: 2px 2px 2px #555;
 }
 #main3 #products #product-row .product a {
-    line-height: 75px;
-    vertical-align: middle;
-    text-decoration: 2px underline #be1f24;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 #main3 #products #catalogue {
     margin: 0 auto;
     width: auto;
     display: block;
-    padding: 10px 20px;
+    padding: 1vh 2vw;
 }
 #main3 #projects {
-    padding: 50px;
+    padding: 5vh 5vw;
 }
 #main3 #projects h2 {
     margin: 0;
-    padding: 0 0 50px;
+    padding: 0 0 5vh;
 }
 #main3 #projects #project-row {
+    display: -webkit-box;
     display: flex;
+    flex-wrap: wrap;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#EEE));
     background-image: linear-gradient(#FFF, #EEE);
     border-bottom: 1px solid #CCC;
 }
 #main3 #projects #project-row .project {
-    flex: 33%;
+    -webkit-box-flex: 100%;
+    flex: 100%;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
     padding: 20px;
@@ -112,43 +131,44 @@
     cursor: pointer;
 }
 #main3 #news {
-        background: radial-gradient(#FFF, #BBB);
+    background: radial-gradient(#FFF, #BBB);
     border: 2px solid #999;
     box-shadow: 0 0 10px #555;
-    padding: 0 50px 50px;
+    padding: 0 5vw 5vh;
 }
 #main3 #news h2 {
     text-align: center;
-    padding: 50px;
+    padding: 5vh 5vw;
     margin: 0;
 }
 #main3 #news #news-row {
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 #main3 #news #news-row .news {
     display: block;
     width: 100%;
-    margin: 0 0 10px;
+    margin: 0 0 1vh;
     height: 10vh;
     line-height: 10vh;
-    vertical-align: middle;
     background-color: #333;
     border: 1px solid #111;
     color: #FFF;
     box-sizing: border-box;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     cursor: pointer;
 }
 #main3 #news #news-row .news:hover {
     background-color: #222;
+    -webkit-transform: scale(1.05) translateY(-5%);
     transform: scale(1.05) translateY(-5%);
     box-shadow: 0 5px 5px #111;
 }
 #main3 #news #news-row .news .date {
     width: auto;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 2vw;
     font-size: xx-large;
     box-sizing: border-box;
     float: left;
@@ -162,17 +182,21 @@
 }
 #main3 #clients h2 {
     margin: 0;
-    padding: 50px;
+    padding: 5vh 5vw;
     text-align: center;
 }
 #main3 #clients #client-row {
     width: 80%;
     margin: auto;
+    display: -webkit-box;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 #main3 #clients #client-row .client {
-    width: 15%;
+    width: 30%;
+    margin: 5%;
     padding: 5px;
     display: inline-block;
     border: 2px solid #be1f24;
@@ -181,5 +205,28 @@
 #main3 #clients #client-row .client img {
     width: 100%;
     height: 100%;
+    -o-object-fit: contain;
     object-fit: contain;
+}
+@media screen and (min-width: 768px) {
+    #main3 #about {
+        padding: 0 20% 5vh;
+    }
+    #main3 #products #product-row {
+        padding: 5vh 5vw;
+    }
+    #main3 #products #product-row .product {
+        padding: 20px;
+    }
+    #main3 #projects #project-row .project {
+        -webkit-box-flex: 33%;
+        flex: 33%;
+    }
+    #main3 #news #news-row {
+        width: 60%
+    }
+    #main3 #clients #client-row .client {
+        width: 15%;
+        margin: 0;
+    }
 }

@@ -1,5 +1,5 @@
 #about1 #company {
-    padding: 50px;
+    padding: 5vh 5vw;
     text-align: center;
 }
 #about1 #company #large {
@@ -14,12 +14,15 @@
     width: 100%;
 }
 #about1 #stats #stats-box {
+    display: -webkit-box;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
 }
 #about1 #stats .card {
-    width: 18%;
-    margin: 0px 1%;
+    width: 40%;
+    margin: 2.5%;
     background: radial-gradient(#FFF, #DDD);
     border: 3px outset #be1f24;
     box-sizing: border-box;
@@ -56,66 +59,137 @@
 }
 #about1 #partners #partner-row {
     width: 100%;
-    padding: 50px;
+    padding: 5vh 5vw;
     box-sizing: border-box;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: center;
     justify-content: center;
 }
 #about1 #partners #partner-row .partner {
     text-align: left;
     box-sizing: border-box;
     padding: 20px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     border-left: 1px solid #be1f24;
 }
 #about1 #partners #partner-row .partner:hover {
     background-color: #444;
 }
+#about1 #governance {
+    padding: 5vh 15%;
+    background: #DDD;
+    border-bottom: 1px solid #CCC;
+}
+#about1 #governance h2 {
+    text-align: center;
+    -webkit-text-decoration: underline #be1f24;
+    text-decoration: underline #be1f24;
+}
+#about1 #governance #director-row {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 0;
+}
+#about1 #governance #director-row .director {
+    width: 35%;
+    display: inline-block;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 5px #222;
+    background: #FFF;
+}
+#about1 #governance #director-row .director img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 40vh;
+}
+#about1 #governance #director-row .director p {
+    text-align: center;
+}
 #about1 #clients {
     background: #FFF;
     box-shadow: 0 0 10px inset #000;
-    padding: 50px 15%;
+    padding: 5vh 15% 10vh;
 }
 #about1 #clients h2 {
-    text-decoration: solid underline #be1f24;
-}
-#about1 #clients h3 {
-    width: 100%;
-    flex-shrink: 0;
+    margin: 0;
+    padding: 5vh 5vw;
     text-align: center;
-    text-decoration: solid underline #be1f24;
 }
-#about1 #clients #client-photos {
+#about1 #clients #current-clients {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
-#about1 #clients #client-photos .client {
-    max-width: 25%;
+#about1 #clients #current-clients h3 {
+    width: 100%;
+    text-align: left;
+    -webkit-text-decoration: underline #be1f24;
+    text-decoration: underline #be1f24;
 }
-#about1 #clients #client-photos .client img {
+#about1 #clients #current-clients .client {
+    width: 40%;
+    display: inline-block;
+}
+#about1 #clients #current-clients .client img {
     width: 100%;
     height: 100%;
+    -o-object-fit: contain;
     object-fit: contain;
 }
-#about1 #clients #client-names {
+#about1 #clients #previous-clients {
+    display: -webkit-box;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    border-top: 4px solid #be1f24;
     position: relative;
-    padding-top: 50px;
+    border-top: 4px solid #be1f24;
 }
-#about1 #clients #client-names .circle {
+#about1 #clients #previous-clients .circle {
+    position: absolute;
     top: -12px;
     right: 0;
     background: #be1f24;
 }
-#about1 #clients #client-names p {
-    display: inline;
-    line-height: 50px;
-    min-width: 20%;
-    vertical-align: middle;
-    text-align: center;
+#about1 #clients #previous-clients h3 {
+    width: 100%;
+    text-align: left;
+    -webkit-text-decoration: underline #be1f24;
+    text-decoration: underline #be1f24;
+}
+#about1 #clients #previous-clients .client {
+    width: 30%;
+    display: inline-block;
+}
+#about1 #clients #previous-clients .client img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+@media screen and (min-width: 768px) {
+    #about1 #stats .card {
+        width: 25%;
+        margin: 4%;
+    }
+    #about1 #clients #current-clients .client {
+        width: 20%;
+    }
+    #about1 #clients #previous-clients .client {
+        width: 15%;
+    }
+}
+@media screen and (min-width: 992px) {
+    #about1 #stats .card {
+        width: 18%;
+        margin: 1%;
+    }
+    #about1 #governance #director-row .director {
+        width: 25%;
+    }
 }

@@ -44,10 +44,6 @@
                     <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Picture1-2.jpg">
                     <a href="<?php bloginfo('wpurl')?>/services">Engineering design and fabrication</a>
                 </div>
-                <div class="product">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2019/12/Umlalazi.jpg">
-                    <a href="<?php bloginfo('wpurl')?>/services">Modernization of plant</a>
-                </div>
             </div>
         </section>
         <section id="projects">
@@ -107,6 +103,12 @@
                 </div>
                 <div class="client">
                     <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/images.png">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/02/HolGoun-Mining-Logo-scaled.jpg">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/02/anglo-coal.jpg">
                 </div>
             </div>
         </section>

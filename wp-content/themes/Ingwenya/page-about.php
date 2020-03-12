@@ -78,51 +78,46 @@
                 </div>
             </div>
         </section>
-        <section id="sustainability"></section>
-        <section id="clients">
-            <h2>OUR CLIENTS</h2>
-            <div id="client-photos">
-                <h3>Major</h3>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download2.jpg">
+        <section id="governance">
+            <h2>OUR DIRECTORS</h2>
+            <div id="director-row">
+                <div class="director">
+                    <img
+                        src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Mpho-Mothoa-Managing-director-52shareholder-scaled.jpg">
+                    <p>Mpho Mothoa</p>
                 </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download4.jpg">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download5.png">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download6.jpg">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download3.jpg">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download7.jpg">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download8.png">
-                </div>
-                <div class="client">
-                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/10/download9.jpg">
+                <div class="director">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/P.Wilson-1.jpg">
+                    <p>P. Wilson</p>
                 </div>
             </div>
-            <div id="client-names">
+        </section>
+        <section id="clients">
+            <h2>OUR CLIENTS</h2>
+            <div id="current-clients">
+                <h3>Current Clients</h3>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/CNY_logo-01.png">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/images.png">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/02/HolGoun-Mining-Logo-scaled.jpg">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/02/anglo-coal.jpg">
+                </div>
+            </div>
+            <div id="previous-clients">
                 <div class="circle"></div>
-                <h3>Minor</h3>
-                <p>Company1</p>
-                <p>Mining Company</p>
-                <p>Industrial Mining </p>
-                <p>Mining Company2</p>
-                <p>Mining Comp</p>
-                <p>Mining Company</p>
-                <p>Company2</p>
-                <p>Mining4life</p>
-                <p>Mining Company7</p>
-                <p>Mining 67</p>
-                <p>Mining Company5</p>
-                <p>Mining</p>
+                <h3>Previous Clients</h3>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/03/morupule-coal-mine.jpg">
+                </div>
+                <div class="client">
+                    <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/03/Petmin.jpg">
+                </div>
             </div>
         </section>
     </section>

@@ -1,6 +1,7 @@
 #single1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
     background: linear-gradient(#EEE, #BBB);
-    padding: 100px 15%;
+    padding: 10vh 15%;
     overflow: hidden;
 }
 #single1 img {
@@ -19,13 +20,16 @@
     padding: 10px;
 }
 #single2 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
     background: linear-gradient(#EEE, #BBB);
-    padding: 100px;
+    padding: 10vh 10vw;
 }
 #single2 #wrap {
+    display: -webkit-box;
     display: flex;
 }
 #single2 #wrap #left {
+    -webkit-box-flex: 30%;
     flex: 30%;
 }
 #single2 #wrap #left img {
@@ -35,7 +39,8 @@
     box-sizing: border-box;
 }
 #single2 #wrap #right {
-    padding: 0 50px;
+    padding: 0 5vw;
+    -webkit-box-flex: 70%;
     flex: 70%;
 }
 #single2 #wrap #right h1 {

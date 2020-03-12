@@ -13,15 +13,3 @@ document.querySelectorAll("#news1 .expand").forEach(expand => {
         mediaToggle = !mediaToggle;
     });
 });
-
-const sections = document.querySelectorAll("#news2 > section");
-document.querySelectorAll("#news2 #toggles a").forEach(toggle => {
-    toggle.addEventListener("click", () => {
-        sections.forEach(section => {
-            section.style.display = "none";
-            if (toggle.id == section.id) {
-                section.style.display = "block";
-            }
-        });
-    });
-});

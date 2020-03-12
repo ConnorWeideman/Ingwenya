@@ -35,7 +35,7 @@
                     <li>Timely reporting of results</li>
                 </ul>
             </div>
-            <div class="column">
+            <!--<div class="column">
                 <h3>
                     Stakeholders
                     <div class="circle"></div>
@@ -44,7 +44,7 @@
                     business. To benefit from this, we have built relationship that is beneficial
                     based on trust, reliability and commitment with all stakeholders which
                     contributes to winning results.</p>
-            </div>
+            </div>-->
         </section>
         <section id="differentiators">
             <h2>DIFFERENTIATORS</h2>
