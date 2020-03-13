@@ -1,98 +1,63 @@
 <?php get_header()?>
 
-<main>
-    <section id="bomax">
-        <div id="desktop" class="img">
-            <div class="expand">
-                <p>Gallery
-                    <i class="fas fa-chevron-down" class="arrow"></i>
-                </p>
+<main id="bomax">
+    <h1>BOMAX ENGINEERING</h1>
+    <section id="intro">
+        <p>Ingwenya has a 4000 m 2 engineering workshop located in Hendrina, Mpumalanga. The workshop facility
+            augments operations and is the primary fabrication / installation workshop for all Ingwenya operations.
+        </p>
+    </section>
+    <section id="photo">
+        <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/03/Bomax-Engineering-full-01-scaled.jpg">
+    </section>
+    <section id="services">
+        <p>The workshop is equipped with a 10-ton EOT crane and a 50-ton mobile crane.</p>
+        <p>Bomax Engineering is open for business to external clients.</p>
+    </section>
+    <section>
+        <div id="row">
+            <div class="box">
+                <p>Plant maintenance contracts</p>
             </div>
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/BOMAX-welding-photo.jpg">
+            <div class="box">
+                <p>Shutdown maintenance</p>
+            </div>
+            <div class="box">
+                <p>Engineering inspections</p>
+            </div>
+            <div class="box">
+                <p>Equipment replacements/ installation/ retrofits</p>
+            </div>
         </div>
-        <section id="intro">
-            <h1>BOMAX ENGINEERING</h1>
-            <p>Ingwenya has a 4000 m 2 engineering workshop located in Hendrina, Mpumalanga. The workshop facility
-                augments operations and is the primary fabrication / installation workshop for all Ingwenya operations.
-            </p>
-            <h2>The workshop has a well-qualified & experienced team with the following capabilities:</h2>
-            <ul>
-                <li>All steel fabrication works for all builds</li>
-                <li>Tiling & Rubber lining, pulleys, bucket Repairs</li>
-                <li>Sand Blasting and Painting</li>
-                <li>Heat treatment / stress relieving equipment.</li>
-                <li>Boring, Drilling and Milling</li>
-                <li>Repair works for all the process equipment in use in our plants.</li>
-                <li>Contractual/adhoc maintenance of processing plants</li>
-            </ul>
-        </section>
-        <div id="mobile" class="img">
-            <div class="expand">
-                <p>Gallery
-                    <i class="fas fa-chevron-down" class="arrow"></i>
-                </p>
-            </div>
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/BOMAX-welding-photo.jpg">
-        </div>
-        <section id="gallery">
-            <div id="wrap">
-                <div class="photo">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/BE9230.jpg">
-                </div>
-                <div class="photo">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/BE9284.jpg">
-                </div>
-                <div class="photo">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/BE9296.jpg">
-                </div>
-                <div class="photo">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/tiling-@-Bomax.jpg">
-                </div>
-                <div class="photo">
-                    <img src="<?php bloginfo("wpurl")?>/wp-content/uploads/2020/01/tiling-@Bomax.jpg">
-                </div>
-            </div>
-        </section>
-        <section id="row">
-            <h2>The workshop is equipped with:</h2>
-            <div class="box">
-                <p>Qualified and Certified welders.</p>
-            </div>
-            <div class="box">
-                <p>All assemblies are carried out in the workshop prior to being erected at site.</p>
-            </div>
-            <div class="box">
-                <p>Lifting equipment including a 10-ton EOT crane and a 50-ton mobile crane.</p>
-            </div>
-            <div class="box">
-                <p>A team of capable design engineers to support the workshop activities.</p>
-            </div>
-            <div class="box">
-                <p>Our designs are tailormade to suit client-specific requirements for both plant layout and process
-                    considerations</p>
-            </div>
-        </section>
-        <section id="services">
-            <p>Bomax Engineering is open for business to outside customers.</p>
-            <h2>Services Offered:</h2>
-            <ul>
-                <li>Plant maintenance contracts</li>
-                <li>Shutdown maintenance</li>
-                <li>Engineering inspections</li>
-                <li>Equipment replacements/ installation/ retrofits</li>
-            </ul>
-            <p>For a quotation/ info email: <a href="mail:wilheminahm@ingwenyamp.co.za">wilheminahm@ingwenyamp.co.za</a>
-            </p>
-        </section>
-        <section id="experience">
-            <h2>Previous Experience:</h2>
-            <p>Fabrication of all Processing Plant Structures for all Ingwenya Plants</p>
-            <p>Eskom Power Station Cooling Tower structures fabrication</p>
-            <p>Glencore – Manufacturing of Cyclones</p>
-            <p>Manufacturing & Installation of HES 1300 Vibrating Screen Centrifuges for Sasol</p>
-            <p>Modifications and Modernisation of processing plants.</p>
-            <p>Shutdowns and Maintenance of plants.</p>
-        </section>
+        <p id="quote">For a quotation/ info email: <a
+                href="mail:wilheminahm@ingwenyamp.co.za">wilheminahm@ingwenyamp.co.za</a>
+        </p>
+    </section>
+    <section id="experience">
+        <h2>Previous Work:</h2>
+        <table>
+            <tr>
+                <th>Eskom</th>
+                <td>Fabrication of Structures for Cooling Towers.</td>
+            </tr>
+            <tr>
+                <th>Glencore</th>
+                <td>Manufacturing of Cyclones</td>
+            </tr>
+            <tr>
+                <th>Sasol</th>
+                <td>Installation of HES 1300 Screen Centrifuge</td>
+            </tr>
+            <tr>
+                <th>Universal NCC Coal</th>
+                <td>Modernization and Modification of Processing Plant</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Shutdowns for Maintenance</td>
+            </tr>
+        </table>
+    </section>
     </section>
 </main>
 

@@ -15,7 +15,6 @@
                             expectations.</p>
                         <p>We have the capability to operate coal plants of any capacity and manage production of
                             multiple products.</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +26,6 @@
                     <h3>Design and build of coal processing of coal processing plants</h3>
                     <div class="info">
                         <p>Metallurgical and Engineering design and construction of modular coal plants.</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +38,6 @@
                     <div class="info">
                         <p>We retrofit any equipment and commission to ensure desired goal. We retrofitted 3-product
                             cyclones at NCC to produce High grade coal and Middlings in one plant.</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +51,6 @@
                         <p>Adhoc optimisation of plants and process to ensure efficiency.
                         </p>
                         <p>Plant trouble shooting</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +65,6 @@
                         <p>Pre-Feasibility and Bankable feasibility studies</p>
                         <p>Metallurgical trouble shooting</p>
                         <p>Engineering troubleshooting</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +79,6 @@
                             workshop
                             (fabrication, drilling, rubber lining, sandblasting, boring, milling, heat
                             treatment).</p>
-                        <a href="<?php bloginfo('wpurl')?>/products/product">Details...</a>
                     </div>
                 </div>
             </div>

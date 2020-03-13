@@ -78,10 +78,6 @@ function load_scripts() {
         wp_register_script("singleproductscript", get_template_directory_uri() . "/scripts/product.js", array(), 1, true );
         wp_enqueue_script("singleproductscript");
     }
-    if(is_page("bomax-engineering")) {
-        wp_register_script("bomax-engineeringscript", get_template_directory_uri() . "/scripts/bomax-engineering.js", array(), 1, true );
-        wp_enqueue_script("bomax-engineeringscript");
-    }
 }
 
 register_nav_menus(

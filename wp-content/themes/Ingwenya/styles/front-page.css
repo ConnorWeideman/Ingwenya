@@ -177,6 +177,9 @@
     display: inline-block;
     margin: 0;
 }
+#main3 #news #news-row > p {
+    text-align: center;
+}
 #main3 #clients {
     padding: 0 5vw 5vh;
 }

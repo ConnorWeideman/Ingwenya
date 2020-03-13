@@ -1,73 +1,32 @@
 #bomax {
     padding: 5vh 5vw;
     overflow: hidden;
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));
-    background: linear-gradient(#FFF, #CCC);
-}
-#bomax .img {
-    display: none;
-    float: right;
-    width: 40%;
-    border: 5px inset #be1f24;
-    box-sizing: border-box;
-    position: relative;
-    margin-bottom: 5vh;
-}
-#bomax #mobile.img {
-    display: block;
-    float: none;
-    width: 80%;
-    margin: 5vh auto;
-    border: 5px inset #be1f24;
-    box-sizing: border-box;
-    position: relative;
-}
-#bomax .img img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
-#bomax .img .expand {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: #000;
-    color: #FFF;
-    text-align: center;
-    opacity: 0.9;
-    font-size: x-large;
-    cursor: pointer;
-}
-#bomax .img .expand:hover {
-    color: #DDD;
-}
-#bomax #gallery {
-    display: none;
-    width: 100%;
-    padding: 5vh 0 0 0;
-    clear: both;
-}
-#bomax #gallery #wrap {
-    display: -webkit-box;
-    display: flex;
-    flex-wrap: wrap;
-}
-#bomax #gallery #wrap .photo {
-    width: 50%;
-    height: 40vh;
-    border: 2px solid #be1f24;
-    box-sizing: border-box;
-}
-#bomax #gallery #wrap .photo img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    background: #FFF;
 }
 #bomax h1 {
-    -webkit-text-decoration: underline #be1f24;
+    text-align: center;
     text-decoration: underline #be1f24;
+}
+#bomax #intro p {
+    text-align: center;
+    padding: 5vh 5wh;
+}
+#bomax #photo {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 5vh auto;
+}
+#bomax #photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#bomax #services {
+    padding: 0 10%;
+}
+#bomax #services h2 {
+    text-align: center;
 }
 #bomax #row {
     display: -webkit-box;
@@ -96,18 +55,30 @@
     display: -webkit-box;
     display: flex;
 }
+#bomax #quote {
+    text-align: center;
+}
 #bomax #row .box p {
     align-self: center;
+    text-align: center;
 }
 #bomax #experience {
     text-align: center;
 }
+#bomax #experience table {
+    text-align: left;
+    margin: auto;
+}
+#bomax #experience table * {
+    border: 1px solid #000;
+    padding: 5px;
+}
 @media screen and (min-width: 768px) {
-    #bomax #mobile.img {
-        display: none;
+    #bomax #services {
+        padding: 0 15%;
     }
-    #bomax #desktop {
-        display: block;
+    #bomax #photo {
+        width: 90%;
     }
     #bomax #gallery #wrap .photo {
         width: 33%;
@@ -121,6 +92,12 @@
 @media screen and (min-width: 992px) {
     #bomax .img {
         width: 60%;
+    }
+    #bomax #photo {
+        width: 80%;
+    }
+    #bomax #services {
+        padding: 0 20%;
     }
     #bomax #gallery #wrap .photo {
         width: 25%;

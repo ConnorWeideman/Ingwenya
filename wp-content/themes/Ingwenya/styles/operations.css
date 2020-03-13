@@ -2,6 +2,8 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#AAA));
     background: linear-gradient(#DDD, #AAA);
     padding: 5vh 5vw;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 #projects1 #about {
     width: 80%;
@@ -15,12 +17,14 @@
 #projects1 #toggles {
     display: -webkit-box;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     padding: 5vh 0;
 }
 #projects1 #toggles select {
     padding: 10px 20px;
+    margin: 5px 0;
     box-shadow: 2px 2px 2px #be1f24;
     outline: none;
 }
@@ -29,11 +33,11 @@
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #projects1 #project-row .project {
-    width: 40%;
-    margin: 5%;
+    width: 80%;
+    margin: 10%;
     height: 40vh;
     position: relative;
     overflow: hidden;
@@ -80,8 +84,8 @@
 }
 @media screen and (min-width: 768px) {
     #projects1 #project-row .project {
-        width: 29%;
-        margin: 2%;
+        width: 40%;
+        margin: 5%;
     }
 }
 @media screen and (min-width: 992px) {

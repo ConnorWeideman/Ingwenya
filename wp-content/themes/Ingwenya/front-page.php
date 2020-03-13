@@ -50,49 +50,37 @@
             <h2>OPERATIONS</h2>
             <div id="project-row">
                 <div class="project">
-                    <h3>Africa</h3>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Somkhele</a>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Kiepersol</a>
+                    <h3>Mpumalanga</h3>
                     <a href="<?php bloginfo('wpurl')?>/operations">Umlalazi</a>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Nkomati Anthracite Colliery</a>
+                    <a href="<?php bloginfo('wpurl')?>/operations">Phalanndwa</a>
+                    <a href="<?php bloginfo('wpurl')?>/operations">New Clydesdale Colliery</a>
+                    <a href="<?php bloginfo('wpurl')?>/operations">Hakhano</a>
+                    <a href="<?php bloginfo('wpurl')?>/operations">Khanye Colliery</a>
+                    <a href="<?php bloginfo('wpurl')?>/operations">Holgoun</a>
                 </div>
                 <div class="project">
-                    <h3>Europe</h3>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Phalanndwa colliery</a>
-                    <a href="<?php bloginfo('wpurl')?>/operations">ZAC discard plant</a>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Palesa crush, screen and
-                        stockpiling operation</a>
-                    <a href="<?php bloginfo('wpurl')?>/operations">Modificatons and Expansions at
-                        New Clydesdale Colliery</a>
-                </div>
-                <div class="project">
-                    <h3>Asia</h3>
-                    <a href="<?php bloginfo('wpurl')?>/project">KBH magnetite plant</a>
-                    <a href="<?php bloginfo('wpurl')?>/project">Ubuntu Colliery</a>
-                    <a href="<?php bloginfo('wpurl')?>/project">Hakhano</a>
-                    <a href="<?php bloginfo('wpurl')?>/project">Khanye Colliery</a>
+                    <h3>Kwazulu Natal</h3>
+                    <a href="<?php bloginfo('wpurl')?>/operations">ZAC Discard Plant</a>
                 </div>
             </div>
         </section>
         <section id="news">
             <h2>NEWS</h2>
             <div id="news-row">
-                <a href="<?php bloginfo('wpurl')?>/news" class="news">
-                    <div class="date">18</div>
-                    <div class="title">A News Story</div>
+                <?php
+            $args = array(
+            'post_type'      => 'post',
+            'posts_per_page'    => '4'
+            );
+            $query = new WP_Query($args);
+            if ( $query->have_posts() ) : while ($query->have_posts()) : $query->the_post();?>
+                <a href="<?php bloginfo('wpurl')?>/media" class="news">
+                    <div class="date"><?php the_time("d")?></div>
+                    <div class="title"><?php the_title()?></div>
                 </a>
-                <a href="<?php bloginfo('wpurl')?>/news" class="news">
-                    <div class="date">15</div>
-                    <div class="title">This News Story</div>
-                </a>
-                <a href="<?php bloginfo('wpurl')?>/news" class="news">
-                    <div class="date">12</div>
-                    <div class="title">Some News Story</div>
-                </a>
-                <a href="<?php bloginfo('wpurl')?>/news" class="news">
-                    <div class="date">10</div>
-                    <div class="title">Another News Story</div>
-                </a>
+                <?php endwhile; else:?>
+                <p>There are currently no blog posts, please check back later.</p>
+                <?php endif?>
             </div>
         </section>
         <section id="clients">
